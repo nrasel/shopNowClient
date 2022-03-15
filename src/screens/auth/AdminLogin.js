@@ -43,9 +43,7 @@ const AdminLogin = () => {
         {errors.length > 0 &&
           errors.map((error, key) => (
             <div key={key}>
-              <p className="alert-danger bg-red-100 text-red-700 p-3 mb-2 rounded-sm text-sm font-medium">
-                {error.msg}
-              </p>
+              <p className="alert-danger">{error.msg}</p>
             </div>
           ))}
         <div className="mb-4 mt-4">

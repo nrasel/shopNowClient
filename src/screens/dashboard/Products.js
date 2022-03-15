@@ -1,10 +1,14 @@
 import React from "react";
+import Wrapper from "./Wrapper";
 
 const Products = () => {
   return (
-    <div>
-      <h1>products lists</h1>
-    </div>
+    <Wrapper>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, unde
+      magni libero, commodi velit debitis obcaecati, ducimus dignissimos quam
+      quibusdam praesentium sed a possimus reprehenderit deleniti. Praesentium
+      ipsum tempora aliquid?
+    </Wrapper>
   );
 };
 
